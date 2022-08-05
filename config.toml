@@ -1,0 +1,25 @@
+baseURL = 'https://JacksonCampolattaro.github.io'
+languageCode = 'en-us'
+title = 'Jackson Campolattaro'
+theme = 'solar-theme-hugo'
+
+[params]
+    scheme = "light" # light, dark, gray or preference
+    description = "Computer Engineering student at TU Delft with an enthusiasm for Open Source principles"
+
+[menu]
+    [[menu.main]]
+        name = "Contact"
+        url = "/contact"
+    [[menu.main]]
+        name = "About"
+        url = "/about"
+    [[menu.contacts]]
+        name = "Github"
+        url = "https://github.com/JacksonCampolattaro"
+    [[menu.contacts]]
+        name = "LinkedIn"
+        url = "https://www.linkedin.com/in/jacksoncampolattaro/"
+    [[menu.contacts]]
+        name = "Email"
+        url = "mailto:j.campolattaro@student.tudelft.nl"
