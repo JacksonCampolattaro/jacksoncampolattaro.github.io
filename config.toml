@@ -1,4 +1,4 @@
-baseURL = 'https://JacksonCampolattaro.github.io'
+baseURL = 'https://JacksonCampolattaro.github.io/JacksonCampolattaro/'
 languageCode = 'en-us'
 title = 'Jackson Campolattaro'
 theme = 'solar-theme-hugo'
