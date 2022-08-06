@@ -71,6 +71,14 @@ Required a mix of working with legacy code and green-field development.
 
 ## Projects
 
+### {{< split "N-Body" "*July 2018--Present*" >}}
+
+*Independent Project* --
+Building a multi-threaded dynamical simulation tool to improve my
+familiarity with optimization, build tools, design patterns, and libraries.
+Incorporated concepts including concurrency, event-driven programming,
+serialization, cache-optimization, and tree algorithms among others.
+
 ### {{< split "Quarter ID" "*August 2020--June 2021*" >}}
 
 *University Capstone Project* -- 
@@ -80,17 +88,10 @@ Involved industrial imaging and lighting hardware,
 paired with a computer vision pipeline built with Python and OpenCV.
 [Read More]({{< ref "/quarter-id" >}})
 
-### {{< split "N-Body" "*July 2018--Present*" >}}
-
-*Independent Project* --
-Building a multi-threaded dynamical simulation tool to improve my
-familiarity with optimization, build tools, design patterns, and libraries.
-Incorporated concepts including concurrency, event-driven programming,
-serialization, cache-optimization, and tree algorithms among others.
-
 ### {{< split "Spectrogram" "*August 2020--December 2020*" >}}
 
 *University Coursework* --
 Developed a low-latency Spectrogram audio frequency visualizer alongside two other students.
 Involved navigating real-time limitations in a contemporary event-driven desktop application,
 as well as CI, build system engineering, and other team management logistics.
+[Read More]({{< ref "/spectrogram" >}})
