@@ -1,7 +1,7 @@
 ---
 title: "Spectrogram"
 date: 2022-08-06T12:43:34+02:00
-draft: true
+draft: false
 ---
 
 {{< figure src="/img/projects/spectrogram-output.jpg" >}}
