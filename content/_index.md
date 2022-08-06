@@ -74,10 +74,11 @@ Required a mix of working with legacy code and green-field development.
 ### {{< split "N-Body" "*July 2018--Present*" >}}
 
 *Independent Project* --
-Building a multi-threaded dynamical simulation tool to improve my
+Building a multithreaded dynamical simulation tool to improve my
 familiarity with optimization, build tools, design patterns, and libraries.
 Incorporated concepts including concurrency, event-driven programming,
 serialization, cache-optimization, and tree algorithms among others.
+[Read More]({{< ref "/n-body" >}})
 
 ### {{< split "Quarter ID" "*August 2020--June 2021*" >}}
 

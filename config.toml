@@ -5,7 +5,7 @@ theme = 'solar-theme-hugo'
 
 [params]
     scheme = "light" # light, dark, gray or preference
-    description = "Computer Engineering student at TU Delft with an enthusiasm for Open Source principles"
+    description = "Computer Engineering student at TU Delft with an enthusiasm for Open Source software"
 
 [menu]
     [[menu.main]]
