@@ -4,8 +4,6 @@ date: 2022-08-04T20:18:06+02:00
 draft: false
 ---
 
-{{< figure src="/images/portrait-cropped.jpeg" width=150 >}}
-
 # Education
 
 ### {{< split "TU Delft" "*Fall 2021--Spring 2023*" >}}
@@ -76,9 +74,11 @@ Required a mix of working with legacy code and green-field development.
 ### {{< split "Quarter ID" "*August 2020--June 2021*" >}}
 
 *University Capstone Project* -- 
-Lead a small team of interdisceplenary engineering students
+Lead a small team of interdisciplinary engineering students
 to develop a solution which determines the value of collectible coins using machine vision.
-Involved industrial imaging and lighting hardware, paired with bespoke software written in Python using OpenCV.
+Involved industrial imaging and lighting hardware, 
+paired with a computer vision pipeline built with Python and OpenCV.
+[Read More]({{< ref "/quarter-id" >}})
 
 ### {{< split "N-Body" "*July 2018--Present*" >}}
 
