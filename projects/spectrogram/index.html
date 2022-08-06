@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width"><title>Spectrogram</title><link rel=stylesheet href=https://jacksoncampolattaro.github.io/css/colors-light.min.1d48e4c2124c6c9dac31b2abe100cace7dd90b4e11888c91209d003a36860c93.css></head><body><header id=header><h1><a href=https://jacksoncampolattaro.github.io/>Jackson Campolattaro</a></h1><p>Computer Engineering student at TU Delft with an enthusiasm for Open Source principles</p></header><div id=page><div id=sidebar><nav><ul class=nav><li><a href=mailto:j.campolattaro@student.tudelft.nl><span>Email</span></a></li><li><a href=https://github.com/JacksonCampolattaro><span>Github</span></a></li><li><a href=https://www.linkedin.com/in/jacksoncampolattaro/><span>LinkedIn</span></a></li></ul><ul class=nav><li><a href=/about><span>About</span></a></li><li><a href=/contact><span>Contact</span></a></li></ul></nav></div><div id=content><article class=post><h1><a href=https://jacksoncampolattaro.github.io/projects/spectrogram/>Spectrogram</a></h1><div class=post-content><figure><img src=/img/projects/spectrogram-output.jpg></figure><p>Spectrogram was a 4 month (one-semester) project completed as part of my coursework at Virginia Tech.
+The assignment allowed for a lot of leeway when selecting a task;
+because of my interest in music, I wanted to build a spectrogram (a type of audio visualizer).
+I formed a group with two like-minded students,
+and we set out with the goal of making a cross-platform C++ program which would visualize the system&rsquo;s audio streams.</p><p>Because the program doesn&rsquo;t play the music itself, it receives no information about upcoming audio.
+This required us to apply real-time programming techniques to ensure the latency was acceptably low.</p><p>Because of Covid, this project needed to be completed remotely.
+This forced us to pay special attention to our development processes, to ensure our team was always on the same page.
+I took on a software-architect role and designed interfaces
+so that we could independently build the different parts of the program.
+I also configured a continuous integration pipeline,
+so that we could use unit tests to ensure intended behavior at the boundaries between modules.</p><figure><img src=/img/projects/spectrogram-diagram.png alt="The UML Diagram which dictated the structure of our program."><figcaption><p><em>The UML Diagram which dictated the structure of our program.</em></p></figcaption></figure><p>I took responsibility for the low level plumbing of the program.
+This included the interface with the cross-platform audio stream library <a href=http://libsound.io/>SoundIO</a>,
+and the lock-free queues needed to communicate the captured data to the program&rsquo;s other processes.
+My teammates developed other parts of the program,
+including most of the UI (using <a href=https://www.qt.io/design>QT</a>),
+plot rendering (using <a href=https://www.qcustomplot.com/>QCustomPlot</a>),
+and the fourier transform (using <a href=https://www.fftw.org/>FFTW</a>).</p><figure><img src=/img/projects/spectrogram-ui.jpg alt="Screenshot of the completed QT program." width=80%><figcaption><p><em>Screenshot of the completed QT program.</em></p></figcaption></figure><p>I was especially enthusiastic about this project,
+because it&rsquo;s something which I could make use of after development was complete.
+On my own time (during and after the course),
+I developed a <a href=https://www.gtk.org/>GTK</a>-based frontend on top the same audio pipeline foundation.
+I have a personal preference for GTK over QT, and this was a way to learn more about building GTK applications.</p><p>To learn more about this project, see the open source (GPLv3) repo on Github:</p><div class=github-card data-github=JacksonCampolattaro/spectrogram data-width=100% data-height data-theme=default></div><script src=//cdn.jsdelivr.net/github-cards/latest/widget.js></script></div><p class=meta>Posted on <span class=postdate>06. August 2022</span></p></article></div><footer id=footer><p class=copyright>Powered by <a href=https://gohugo.io/>Hugo</a> and the
+<a href=https://github.com/bake/solar-theme-hugo>Solar</a>-theme.</p></footer></div></body></html>
