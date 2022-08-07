@@ -12,7 +12,7 @@ That preparation was ultimately redundant (it was an introductory course),
 but I enjoyed the work, and I've continued to add to the project during off periods, since.
 
 The [n-body problem](https://en.wikipedia.org/wiki/N-body_problem) is the algorithmic challenge of modeling
-the interactions between very large number of point masses -- 
+the interactions between a very large number of point masses -- 
 for example, when simulating the formation of galactic clusters.
 
 My first version of the n-body project focused on the algorithmic aspects. 

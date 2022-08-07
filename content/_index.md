@@ -8,7 +8,7 @@ draft: false
 
 ### {{< split "TU Delft" "*Fall 2021--Spring 2023*" >}}
 
-Research-oriented Master's student in Computer Engineering, with a focus on software and software/hardware codesign.
+Research-oriented masters in Computer Engineering, with a focus on software and software/hardware codesign.
 
 ### {{< split "Virginia Tech" "*Fall 2018--Spring 2021*" >}}
 
@@ -33,7 +33,7 @@ Jansson, LibJWT
 
 ### {{< split "Others" "*In order of Experience*" >}}
 
-Rust, CUDA, Verilog, HTML + CSS/Sass, Octave/Matlab, MIPS Assembly, x86 Assembly
+Rust, CUDA, VHDL, Verilog, HTML + CSS/Sass, Octave/Matlab, MIPS Assembly, x86 Assembly
 
 ## Tools
 
@@ -62,12 +62,13 @@ Rust, CUDA, Verilog, HTML + CSS/Sass, Octave/Matlab, MIPS Assembly, x86 Assembly
 Worked alongside PhD students at Inria Research Center Sophia Antipolis to incorporate SIMD concepts into CGALs 
 collision detection packages, improving performance.
 
-### {{< split "CGAL" "*May 2021--August 2021*" >}}
+### {{< split "CGAL" "*May 2020--August 2020*" >}}
 
 *Google Summer of Code Apprentice* --
 Worked remotely with a mentor in France to develop a new software package.
 The project is an Octree data structure, used in other packages.
 Required a mix of working with legacy code and green-field development.
+[Read More]({{< ref "/cgal-orthtree" >}})
 
 ## Projects
 
