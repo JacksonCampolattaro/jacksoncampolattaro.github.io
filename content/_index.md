@@ -61,6 +61,7 @@ Rust, CUDA, VHDL, Verilog, HTML + CSS/Sass, Octave/Matlab, MIPS Assembly, x86 As
 *SIMD Research Internship* --
 Worked alongside PhD students at Inria Research Center Sophia Antipolis to incorporate SIMD concepts into CGALs 
 collision detection packages, improving performance.
+[Read More]({{< ref "/inria-simd" >}})
 
 ### {{< split "CGAL" "*May 2020--August 2020*" >}}
 
