@@ -1,0 +1,66 @@
+@import "variables";
+
+body {
+  background: $color-background;
+  color: $color-body;
+}
+
+::selection {
+  background: $color-background-hover;
+}
+
+a {
+  color: $color-secondary;
+  padding: 0px 4px;
+  border-radius: $corner-radius;
+  white-space: nowrap;
+  text-decoration: underline $color-background-hover;
+}
+
+a:hover {
+  background: $color-background-hover;
+}
+
+#header a {
+  color: $color-primary;
+  background-color: $color-background;
+  padding: 0 6px;
+}
+
+#header a:hover {
+
+  background: $color-background-hover;
+}
+
+#contacts a {
+  color: $color-tertiary;
+}
+
+nav a {
+  color: $color-secondary;
+}
+
+h1 a {
+  color: $color-primary;
+}
+
+h1 {
+  color: $color-primary;
+}
+
+h2 {
+  color: $color-primary;
+}
+
+h3 {
+  color: $color-primary;
+}
+
+h4 {
+  color: $color-primary;
+}
+
+.card {
+  border-radius: 10px;
+  border: 2px solid $color-tertiary;
+}

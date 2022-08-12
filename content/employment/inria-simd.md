@@ -11,7 +11,7 @@ and I was interested in continuing the same type of work.
 After the end of the summer I kept in touch with my mentor, 
 and he put me in contact with his colleagues at [Inria](https://www.inria.fr/en).
 Once I knew I would be attending graduate school in Europe we made arrangements for in-person work at 
-[Inria's research campus in Sophia Antipolis, France](https://www.inria.fr/en/inria-centre-universite-cote-azur).
+[Inria's research campus](https://www.inria.fr/en/inria-centre-universite-cote-azur) in Sophia Antipolis, France.
 
 At Inria, I reported to [Pierre Alliez](https://team.inria.fr/titane/team/pierre-alliez/).
 My goal for the summer was to look at ways SIMD instructions could be incorporated into the CGAL library.

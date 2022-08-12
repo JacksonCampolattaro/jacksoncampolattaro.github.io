@@ -1,0 +1,78 @@
+body {
+  font-family: "IBM Plex Sans", Sans-Serif, sans-serif;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+p {
+  margin-bottom: 1.5em;
+  word-wrap: break-word;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+sup {
+  vertical-align: super;
+  font-size: 0.85em;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: 0.85em;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+h3 {
+  font-size: 15px;
+  margin: 0 0 10px 0;
+}
+
+h4 {
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}
+
+#header {
+
+  h1 {
+
+    //font-family: "Montserrat", Sans-Serif;
+    font-family: "Arial", Sans-Serif, sans-serif;
+
+    a {
+      font-size: 36px;
+      text-decoration: none;
+    }
+  }
+
+}
+
+#sidebar {
+
+
+  nav {
+
+    font-size: 18px;
+
+  }
+
+  #contacts {
+
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+<body>
+
+{{- partial "header.html" . -}}
+
+<div id="page">
+
+    <div id="sidebar">
+        {{ partial "navigation.html" . }}
+        <div id="contacts">
+            <a href="https://github.com/{{ .Site.Params.Github }}"><i class="fa fa-github"></i></a>
+            <a href="mailto:{{ .Site.Params.Email }}"><i class="fa fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/{{ .Site.Params.Linkedin }}"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <div id="content">
+        {{- block "main" . }}{{- end }}
+    </div>
+</div>
+
+{{- partial "footer.html" . -}}
+
+</body>
+</html>
