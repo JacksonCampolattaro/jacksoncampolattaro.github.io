@@ -93,7 +93,7 @@ article img {
   border-radius: $corner-radius;
 }
 
-@media all and (max-width: 870px) {
+@media screen and (max-width: 870px) {
 
   #logo {
     display: none;
