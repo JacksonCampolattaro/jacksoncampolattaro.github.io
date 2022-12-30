@@ -1,17 +1,17 @@
 ---
-title: ""
+title: "Contact Me"
 date: 2022-08-04T23:41:02+02:00
 draft: false
 ---
 
-# Email
+## Email
 
 {{< email-card >}}
 
-# Github
+## Github
 
 {{< github-card >}}
 
-# Linkedin
+## Linkedin
 
 {{< linkedin-card >}}

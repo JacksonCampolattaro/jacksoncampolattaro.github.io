@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Me"
 date: 2022-08-04T20:05:02+02:00
 draft: false
 ---
@@ -28,8 +28,8 @@ I'm drawn toward projects which involve:
 {{< apple-music-favorites >}}
 *The Apple music Favorites playlist is usually representative of the types of music I'm listening to at the moment.*
 
-{{< apple-music-albums >}}
-*I tend to listen to music by the album; these are some of my favorites in the last couple of years.*
+[//]: # ({{< apple-music-albums >}})
+[//]: # (*I tend to listen to music by the album; these are some of my favorites in the last couple of years.*)
 
 ### Cycling
 

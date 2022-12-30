@@ -82,6 +82,14 @@ Incorporated concepts including concurrency, event-driven programming,
 serialization, cache-optimization, and tree algorithms among others.
 [Read More]({{< ref "/n-body" >}})
 
+### {{< split "t-SNE" "*August 2022--December 2022*" >}}
+
+*University Coursework* --
+Built a collection of algorithms for fast t-SNE minimization on the CPU, 
+culminating in an efficient implementation of a state-of-the-art algorithm 
+described by a paper from 2021.
+[Read More]({{< ref "/t-sne" >}})
+
 ### {{< split "Quarter ID" "*August 2020--June 2021*" >}}
 
 *University Capstone Project* -- 
